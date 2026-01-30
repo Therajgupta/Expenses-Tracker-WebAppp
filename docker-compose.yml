@@ -4,7 +4,7 @@ services:
     image: mysql:latest
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: Test@123
+      MYSQL_ROOT_PASSWORD: Test@12
       MYSQL_DATABASE: expenses_tracker
     volumes:
       - ./mysql-data:/var/lib/mysql
